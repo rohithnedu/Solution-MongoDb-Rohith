@@ -8,12 +8,20 @@ Step 1)      Create a folder 	, navigate to the folder and clone the github repo
 
 
 
-Step 2)     Identify the localpath(we need this to execute Jar)
+Step 2)     Identify the localpath(we need this to execute Jar).
+
+
                 Run pwd. From this we will know the  {current path }
+
+
                 In my case   {current path } =  /Users/rohithnedunuri/Desktop/workspace/mongo_submit_proto
 
+
+
 Step 3)      Executing the Jar :
-						cat { path of input file }  | java -jar {current path }/Solution-MongoDb-Rohith/target/MongoDbJsonFlattener-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+		
+
+            cat { path of input file }  | java -jar {current path }/Solution-MongoDb-Rohith/target/MongoDbJsonFlattener-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 
 Note :
