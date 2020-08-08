@@ -34,9 +34,11 @@ public class JsonFlattener {
 			e.printStackTrace();
 		}
 		try {
+			System.out.println("{");
 			map.forEach((key, value) -> {
 				System.out.println(key + " -> " + value);
 			});
+			System.out.println("}");
 		} catch (Exception e) {
 
 		}
