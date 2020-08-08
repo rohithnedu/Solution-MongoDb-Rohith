@@ -26,7 +26,7 @@ Step 3)      Executing the Jar :
 
 Example In my case :
 
-           cat /Users/rohithnedunuri/Downloads/input.json  | java -jar /Users/rohithnedunuri/Desktop/workspace/mongodb_proto_test_1/Solution-MongoDb-        		   Rohith/target/MongoDbJsonFlattener-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+           cat /Users/rohithnedunuri/Downloads/input.json  | java -jar /Users/rohithnedunuri/Desktop/workspace/mongodb_proto_test_1/Solution-MongoDb-Rohith/target/MongoDbJsonFlattener-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 Note :
 In Case Developer wants to make any changes ,he is free make changes and run maven clean install to generate new jar under target folder
